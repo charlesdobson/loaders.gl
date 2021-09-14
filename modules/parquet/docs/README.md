@@ -1,8 +1,8 @@
 # @loaders.gl/parquet
 
 <p class="badges">
-  <img src="https://img.shields.io/badge/From-v2.1-blue.svg?style=flat-square" alt="From-v3.1" />
-	<img src="https://img.shields.io/badge/-BETA-teal.svg)](/studio/user-guide/import" alt="BETA">
+  <img src="https://img.shields.io/badge/From-v3.1-blue.svg?style=flat-square" alt="From-v3.1" />
+  <img src="https://img.shields.io/badge/-BETA-teal.svg" alt="BETA" />
 </p>
 
 Experimental loader and writer for the Apache Parquet format.
