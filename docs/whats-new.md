@@ -19,9 +19,7 @@
   </tbody>
 </table>
 
-## v3.1 (Planning/prototyping stage)
-
-Target Release Date: Q4 2021.
+## v3.2 (Planning/prototyping stage)
 
 Aspirational goals:
 
@@ -29,8 +27,16 @@ Aspirational goals:
 - Unbundled loaders.
 - More comprehensive support for `options.shape` to control output format of loaders.
 - Replace `Schema` class with arrow schema if arrowjs tree-shaking improvements are satisfactory.
-- New loaders: `GeoTIFFLoader`, `ZarrLoader`, `ParquetLoader`, `AVROLoader`, 
+- New loaders: `GeoTIFFLoader`, `ZarrLoader`, `AVROLoader`, 
 - `ffmpeg` WASM integration for `@loaders.gl/video`
+
+## v3.1
+
+Target Release Date: October 2021. Alpha releases available.
+
+**@loaders.gl/parquet** (NEW)
+
+- New experimental [`ParquetLoader`](modules/parquet/docs/api-reference/parquet-loader)
 
 **@loaders.gl/json**
 
@@ -38,7 +44,12 @@ Aspirational goals:
 
 **@loaders.gl/csv**
 
-- The CSVLoader now recognizes TSV files via `.tsv` file extension or the `text/tab-separated-values` MIME type.
+- `CSVLoader` now recognizes TSV files via `.tsv` file extension or the `text/tab-separated-values` MIME type.
+
+**@loaders.gl/gltf**
+
+- `GTLTLoader` now support Basis super compressed textures via the `KHR_texture_basisu` extension.
+
 
 ## v3.0
 
